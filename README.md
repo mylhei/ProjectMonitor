@@ -15,3 +15,7 @@ This used `Cluster` and `fs.watchFile` module in NODE api, but they are unstable
 
 As you know , such as a http server, it must be running in a child process. so you can't get the server instance in master,
 so I send messages from master to fork. to tell child what should him do .
+
+
+Note:
+It only is a Experimental project . I will improve and perfect it soon.
